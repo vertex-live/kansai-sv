@@ -1,7 +1,6 @@
 import { about } from "../data/content";
 import Container from "./ui/Container";
 import SectionHeading from "./ui/SectionHeading";
-import Enso from "./motifs/Enso";
 import { useReveal } from "../hooks/useReveal";
 
 export default function Nosotros() {
@@ -9,7 +8,7 @@ export default function Nosotros() {
   const cardsRef = useReveal<HTMLDivElement>();
 
   return (
-    <section id="nosotros" className="bg-washi py-24 sm:py-32">
+    <section id="nosotros" className="bg-washi pt-12 pb-24 sm:pt-16 sm:pb-32">
       <Container>
         <SectionHeading eyebrow={about.eyebrow} title={about.title} align="center" />
 
@@ -17,7 +16,7 @@ export default function Nosotros() {
           {/* Marca visual */}
           <div className="order-2 lg:order-1 lg:col-span-5">
             <div className="relative mx-auto flex aspect-[4/5] max-w-sm items-center justify-center overflow-hidden rounded-[2rem] bg-gradient-to-br from-matcha-100 via-washi to-matcha-50 shadow-[0_40px_90px_-50px_rgba(95,122,107,0.55)]">
-              <Enso className="h-44 w-44 text-matcha-400/70" strokeWidth={4} />
+              <img src="/green enso.png" alt="" className="h-56 w-56 object-contain opacity-70" />
               <span className="absolute font-serif text-6xl text-matcha-700/90">関西</span>
               {/* IMAGEN: reemplazar por una foto del equipo o de las instalaciones */}
               <span className="absolute bottom-5 text-[0.65rem] uppercase tracking-zen text-sumi-muted">

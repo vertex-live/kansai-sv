@@ -26,7 +26,7 @@ export function useReveal<T extends HTMLElement = HTMLDivElement>() {
           }
         });
       },
-      { threshold: 0.12, rootMargin: "0px 0px -8% 0px" }
+      { threshold: 0.01, rootMargin: "0px 0px -2% 0px" }
     );
 
     observer.observe(el);

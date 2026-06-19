@@ -1,6 +1,5 @@
 import { company, footer, nav } from "../data/content";
 import Container from "./ui/Container";
-import Enso from "./motifs/Enso";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -12,7 +11,7 @@ export default function Footer() {
           {/* Marca */}
           <div>
             <a href="#inicio" className="flex items-center gap-3" aria-label="Kansai — inicio">
-              <Enso className="h-9 w-9 text-matcha-500" />
+              <img src="/green enso.png" alt="" className="h-9 w-9 object-contain" />
               <span className="flex flex-col leading-none">
                 <span className="font-serif text-lg font-semibold text-sumi">
                   {company.name}

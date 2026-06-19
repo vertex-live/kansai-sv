@@ -1,7 +1,6 @@
 import { hero } from "../data/content";
 import Container from "./ui/Container";
 import Button from "./ui/Button";
-import Enso from "./motifs/Enso";
 import Asanoha from "./motifs/Asanoha";
 import Icon from "./ui/Icon";
 
@@ -9,7 +8,7 @@ export default function Hero() {
   return (
     <section
       id="inicio"
-      className="relative overflow-hidden bg-gradient-to-b from-washi-50 via-washi to-matcha-50/40 pt-28 pb-20 sm:pt-36 sm:pb-28"
+      className="relative overflow-hidden bg-gradient-to-b from-washi-50 via-washi to-matcha-50/40 pt-28 pb-16 sm:pt-32 sm:pb-20 lg:flex lg:min-h-[88vh] lg:items-center"
     >
       {/* Texturas Zen de fondo — patrón asanoha difuminado hacia la esquina
           superior derecha para que no compita con el texto. */}
@@ -74,11 +73,10 @@ export default function Hero() {
           <div className="hidden lg:col-span-5 lg:block">
             <div className="relative mx-auto flex aspect-square max-w-md items-center justify-center">
               <div className="absolute inset-6 rounded-full bg-white/60 shadow-[0_30px_80px_-40px_rgba(95,122,107,0.5)] backdrop-blur-sm" />
-              <Enso
-                animate
-                className="relative h-72 w-72 text-matcha-500"
-                strokeWidth={5}
-                title="Ensō — círculo Zen, símbolo de Kansai"
+              <img
+                src="/green enso.png"
+                alt="Ensō — círculo Zen, símbolo de Kansai"
+                className="absolute h-[120%] w-[120%] object-contain drop-shadow-md"
               />
               <div className="absolute bottom-10 flex flex-col items-center">
                 <span className="font-serif text-4xl text-matcha-700">関西</span>
@@ -91,14 +89,6 @@ export default function Hero() {
         </div>
       </Container>
 
-      {/* Indicador de desplazamiento accesible */}
-      <a
-        href="#nosotros"
-        className="absolute inset-x-0 bottom-6 mx-auto hidden w-fit text-sumi-muted transition-colors hover:text-matcha-600 sm:block"
-        aria-label="Desplazarse a la sección Nosotros"
-      >
-        <span className="block h-10 w-px animate-pulse bg-matcha-300" aria-hidden="true" />
-      </a>
     </section>
   );
 }
