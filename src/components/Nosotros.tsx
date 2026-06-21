@@ -20,7 +20,7 @@ export default function Nosotros() {
               <span className="absolute font-serif text-6xl text-matcha-700/90">関西</span>
               {/* IMAGEN: reemplazar por una foto del equipo o de las instalaciones */}
               <span className="absolute bottom-5 text-[0.65rem] uppercase tracking-zen text-sumi-muted">
-                Kansai · El Salvador
+                KAN SAI · El Salvador
               </span>
             </div>
           </div>

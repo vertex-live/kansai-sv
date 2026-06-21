@@ -1,14 +1,14 @@
 import type { IconName } from "../components/ui/Icon";
 
 /**
- * Contenido editable del sitio de Kansai Ingeniería Clínica.
+ * Contenido editable del sitio de KAN SAI Ingeniería Clínica.
  * ⚠️ DATOS DE EJEMPLO: reemplazar teléfono, correo, dirección y redes por los
  * datos reales de la empresa antes de publicar.
  */
 
 export const company = {
-  name: "Kansai",
-  fullName: "Kansai Ingeniería Clínica",
+  name: "KAN SAI",
+  fullName: "KAN SAI Ingeniería Clínica",
   tagline:
     "Tecnología médica y servicio de ingeniería clínica con precisión japonesa, al servicio de El Salvador.",
   // TODO: reemplazar por los datos reales de la empresa
@@ -50,7 +50,7 @@ export const about = {
   eyebrow: "Nosotros",
   title: "Disciplina japonesa al servicio de la salud salvadoreña",
   paragraphs: [
-    "Kansai Ingeniería Clínica es una empresa salvadoreña dedicada a la venta, instalación y mantenimiento de equipo médico para instituciones de salud públicas y privadas.",
+    "KAN SAI Ingeniería Clínica es una empresa salvadoreña dedicada a la venta, instalación y mantenimiento de equipo médico para instituciones de salud públicas y privadas.",
     "Nuestro nombre se inspira en la región de Kansai, en Japón, y en su tradición de precisión, orden y mejora continua. Llevamos esa filosofía a cada proyecto: equipos confiables, procesos rigurosos y un acompañamiento cercano a lo largo de toda la vida útil de su tecnología.",
   ],
   // Pilares de la filosofía de la empresa.

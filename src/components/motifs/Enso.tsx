@@ -8,7 +8,7 @@ interface EnsoProps {
 
 /**
  * Ensō (円相) — the Zen brush-drawn circle. Left intentionally open, as in
- * the tradition. Used as Kansai's brand mark and as a decorative accent.
+ * the tradition. Used as KAN SAI's brand mark and as a decorative accent.
  */
 export default function Enso({
   className,

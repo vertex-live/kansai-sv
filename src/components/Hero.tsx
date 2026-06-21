@@ -75,13 +75,13 @@ export default function Hero() {
               <div className="absolute inset-6 rounded-full bg-white/60 shadow-[0_30px_80px_-40px_rgba(95,122,107,0.5)] backdrop-blur-sm" />
               <img
                 src="/green enso.png"
-                alt="Ensō — círculo Zen, símbolo de Kansai"
+                alt="Ensō — círculo Zen, símbolo de KAN SAI"
                 className="absolute h-[120%] w-[120%] object-contain drop-shadow-md"
               />
               <div className="absolute bottom-10 flex flex-col items-center">
                 <span className="font-serif text-4xl text-matcha-700">関西</span>
                 <span className="mt-2 text-xs uppercase tracking-zen text-sumi-muted">
-                  Kansai
+                  KAN SAI
                 </span>
               </div>
             </div>

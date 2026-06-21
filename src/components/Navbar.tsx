@@ -24,7 +24,7 @@ export default function Navbar() {
     >
       <Container className="flex h-16 items-center justify-between sm:h-20">
         {/* Marca */}
-        <a href="#inicio" className="group flex items-center gap-3" aria-label="Kansai — inicio">
+        <a href="#inicio" className="group flex items-center gap-3" aria-label="KAN SAI — inicio">
           <img src="/green enso.png" alt="" className="h-9 w-9 object-contain transition-transform duration-500 group-hover:rotate-12" />
           <span className="flex flex-col leading-none">
             <span className="font-serif text-xl font-semibold tracking-wide text-sumi">

@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="grid gap-10 md:grid-cols-3">
           {/* Marca */}
           <div>
-            <a href="#inicio" className="flex items-center gap-3" aria-label="Kansai — inicio">
+            <a href="#inicio" className="flex items-center gap-3" aria-label="KAN SAI — inicio">
               <img src="/green enso.png" alt="" className="h-9 w-9 object-contain" />
               <span className="flex flex-col leading-none">
                 <span className="font-serif text-lg font-semibold text-sumi">
