@@ -2,14 +2,38 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/enso.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#FAF9F6" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PVV9TB005C"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-PVV9TB005C');
+    </script>
+
+    <!-- Primary SEO -->
+    <link rel="canonical" href="https://kansai-sv.com/" />
     <title>KAN SAI Ingeniería Clínica | Tecnología médica en El Salvador</title>
     <meta
       name="description"
       content="KAN SAI Ingeniería Clínica: venta, instalación y mantenimiento de equipo médico para hospitales y clínicas en El Salvador. Precisión japonesa al servicio de la salud."
     />
+    <meta
+      name="keywords"
+      content="equipo médico El Salvador, ingeniería clínica, mantenimiento de equipo médico, venta de equipo hospitalario, instalación equipo médico, tecnología médica El Salvador, KAN SAI"
+    />
+    <meta name="author" content="KAN SAI Ingeniería Clínica" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="language" content="Spanish" />
+
+    <!-- Local / geo SEO (El Salvador) -->
+    <meta name="geo.region" content="SV" />
+    <meta name="geo.placename" content="San Salvador, El Salvador" />
+
+    <!-- Open Graph -->
     <meta property="og:title" content="KAN SAI Ingeniería Clínica" />
     <meta
       property="og:description"
@@ -17,6 +41,21 @@
     />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_SV" />
+    <meta property="og:site_name" content="KAN SAI Ingeniería Clínica" />
+    <meta property="og:url" content="https://kansai-sv.com/" />
+    <meta property="og:image" content="https://kansai-sv.com/green%20enso.png" />
+    <meta property="og:image:alt" content="Ensō — círculo Zen, símbolo de KAN SAI" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="KAN SAI Ingeniería Clínica" />
+    <meta
+      name="twitter:description"
+      content="Tecnología médica y servicio de ingeniería clínica con precisión japonesa, al servicio de El Salvador."
+    />
+    <meta name="twitter:image" content="https://kansai-sv.com/green%20enso.png" />
+
+    <link rel="icon" type="image/svg+xml" href="/enso.svg" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,6 +63,37 @@
       href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Old+Mincho:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Structured data: MedicalBusiness (local SEO / rich results) -->
+    <!-- NOTE: replace placeholder telephone with the real number before launch. -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MedicalBusiness",
+        "name": "KAN SAI Ingeniería Clínica",
+        "description": "Venta, instalación y mantenimiento de equipo médico para hospitales y clínicas en El Salvador, con precisión japonesa.",
+        "url": "https://kansai-sv.com/",
+        "image": "https://kansai-sv.com/green%20enso.png",
+        "email": "info@kansaiingenieria.com.sv",
+        "telephone": "+503 0000-0000",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "San Salvador",
+          "addressCountry": "SV"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "El Salvador"
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "17:00"
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
